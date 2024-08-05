@@ -3,14 +3,23 @@
     padding: 0;
 }
 
+body {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
+}
+
 header {
     background-color: rgb(255, 255, 255);
 }
 
 nav {
-    background-color: blue;
+    background-color: rgb(105, 195, 255);
+    grid-row: 1 / -1;
 }
 
 .content {
-    background-color: azure;
+    background-color: rgb(228, 228, 228);
 }
