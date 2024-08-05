@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: blue;
+}
+
+.content {
+    background-color: azure;
+}
