@@ -25,6 +25,7 @@ header {
     display: grid;
     background-color: rgb(255, 255, 255);
     grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
 
 nav {
@@ -68,6 +69,16 @@ h2 {
     background-color: rgb(228, 228, 228);
 }
 
+.search {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+.search-bar {
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+
 nav div {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -84,7 +95,6 @@ nav img {
     grid-template-columns: 1fr 10fr;
     align-items: center;
 }
-
 
 
 
