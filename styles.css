@@ -46,6 +46,10 @@ h2 {
     font-size: 1.8rem;
 }
 
+img {
+    width: 100%;
+}
+
 .dash {
     margin-top: 20px;
     margin-left: 20px;
@@ -67,6 +71,17 @@ h2 {
 
 .content {
     background-color: rgb(228, 228, 228);
+}
+
+.top-bar {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 4fr 1fr;
+}
+
+.top-right {
+    display: grid;
+    grid-auto-flow: column;
 }
 
 .search {
