@@ -17,7 +17,7 @@ body {
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 4fr;
 }
 
@@ -31,9 +31,25 @@ nav {
     color: white;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
+nav div {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.dash {
+    margin: 20px;
+}
+
 nav img {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(76deg) brightness(104%) contrast(102%);
 }
+
 
 .content {
     background-color: rgb(228, 228, 228);
