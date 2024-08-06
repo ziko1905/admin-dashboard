@@ -58,7 +58,7 @@ nav div {
 
 .options div {
     margin: 0 40px;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 10fr;
     align-items: center;
 }
 
