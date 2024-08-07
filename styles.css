@@ -25,7 +25,7 @@ header {
     display: grid;
     background-color: rgb(255, 255, 255);
     grid-template-rows: 1fr 1fr;
-    margin: 0px 20px;
+    margin: 0px 60px 0 40px;
 }
 
 nav {
@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 img {
@@ -75,14 +75,17 @@ img {
 
 .top-bar {
     display: grid;
-    gap: 50px;
-    grid-template-columns: 4fr 1fr;
+    gap: 150px;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
 }
 
 .top-right {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 1fr 1fr 4fr;
+    grid-template-columns: 2fr 4fr 9fr;
+    align-items: center;
+    gap: 0 25px;
 }
 
 .search {
@@ -101,6 +104,10 @@ img {
 
 .all {
     grid-row: 1 / -1;
+}
+
+.profile {
+    border-radius: 50px;
 }
 
 nav div {
@@ -124,5 +131,6 @@ nav img {
     grid-template-rows: 1fr 2fr 1fr;
     gap: 0 20px;
 }
+
 
 
