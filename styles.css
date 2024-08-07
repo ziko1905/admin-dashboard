@@ -31,7 +31,8 @@ header {
     display: grid;
     background-color: var(--primary-color);
     grid-template-rows: 1fr 1fr;
-    margin: 0px 60px 20px 40px;
+    padding: 0px 60px 20px 40px;
+    z-index: 1;
 }
 
 nav {
@@ -144,6 +145,10 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+}
+
+.shadow {
+    box-shadow: 4px 4px 6px -2px rgb(187, 187, 187);
 }
 
 nav div {
