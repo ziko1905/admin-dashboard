@@ -170,6 +170,17 @@ button {
     gap: 40px;
 }
 
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+}    
+
+.project {
+    background-color: var(--primary-color);
+}
+
 nav div {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -203,9 +214,4 @@ nav img {
 
 .greeting img {
     align-self: end;
-}
-
-.display > div {
-    height: 100%;
-    background-color: rgb(111, 188, 255);
 }
