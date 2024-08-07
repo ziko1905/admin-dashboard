@@ -203,7 +203,9 @@ button {
 }
 
 .announcments {
-    padding-top: 40px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 70px 10px 70px 10px 70px;
 }    
 
 
@@ -248,8 +250,12 @@ nav img {
 }
 
 .event > p {
+    height: 70%;
     font-size: 0.8rem;
-    height: 50px;
     overflow: hidden;
-    text-overflow: ellipsis;
+    color: rgb(145, 145, 145);
+}
+
+.announcments > hr {
+    align-self: center;
 }
