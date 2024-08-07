@@ -56,6 +56,17 @@ img {
     width: 100%;
 }
 
+button {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 40px;
+    padding: 10% 0;
+    align-self: center;
+}
+
 .dash {
     margin-top: 20px;
     margin-left: 20px;
@@ -119,7 +130,7 @@ img {
 .btm-bar {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0 15vw;
+    gap: 0 17vw;
 }
 
 .greeting {
