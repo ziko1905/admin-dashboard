@@ -209,15 +209,20 @@ button {
 }    
 
 .trending {
-    padding: 10px 30px;
+    padding: 20px 60px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .trend {
     display: grid;
     grid-template-columns: 50px 1fr;
     gap: 20px;
+}
+
+.tag {
+    margin-top: 5px;
 }
 
 nav div {
@@ -269,4 +274,12 @@ nav img {
 
 .announcments > hr {
     align-self: center;
+}
+
+.tag h4:nth-child(2) {
+    color: rgb(145, 145, 145);
+}
+
+.trend img {
+    border-radius: 50px;
 }
