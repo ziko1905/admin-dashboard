@@ -246,3 +246,10 @@ nav img {
     margin-bottom: 5px;
     color: black;
 }
+
+.event > p {
+    font-size: 0.8rem;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
