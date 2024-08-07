@@ -110,6 +110,19 @@ img {
     border-radius: 50px;
 }
 
+.btm-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 15vw;
+}
+
+.greeting {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 6fr;
+    gap: 0 20px;
+}
+
 nav div {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -132,5 +145,15 @@ nav img {
     gap: 0 20px;
 }
 
+.greeting h2 {
+    grid-column: 2;
+    align-self: start;
+}
 
+.greeting h4 {
+    align-self: end;
+}
 
+.greeting img {
+    align-self: end;
+}
