@@ -7,6 +7,12 @@
 
 }
 
+:root {
+    --primary-color: white;
+    --secondary-color: rgb(43, 170, 255);
+    --tertiary-color: rgb(228, 228, 228)
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,15 +29,15 @@ body {
 
 header {
     display: grid;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--primary-color);
     grid-template-rows: 1fr 1fr;
-    margin: 0px 60px 0 40px;
+    margin: 0px 60px 20px 40px;
 }
 
 nav {
-    background-color: rgb(105, 195, 255);
+    background-color: var(--secondary-color);
     grid-row: 1 / -1;
-    color: white;
+    color: var(--primary-color);
 }
 
 h1, h2 {
@@ -70,7 +76,7 @@ img {
 }
 
 .content {
-    background-color: rgb(228, 228, 228);
+    background-color: var(--tertiary-color);
 }
 
 .top-bar {
@@ -94,7 +100,7 @@ img {
 }
 
 .search-bar {
-    background-color: rgb(228, 228, 228);
+    background-color: var(--tertiary-color);
     border-radius: 20px;
 }
 
